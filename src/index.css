@@ -9,3 +9,7 @@
     font-family: 'Quicksand', 'sans-serif';
     scroll-behavior: smooth;
   }
+ ::selection {
+  background: #5c4f64;
+  color: #eeeff2;
+ }
