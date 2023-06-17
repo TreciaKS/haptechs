@@ -2,17 +2,17 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className="flex h-screen max-md:flex-col">
+    <section className="flex max-md:flex-col-reverse md:h-screen" id="about">
       <div className="w-full h-96">
         <img
           src="https://images.unsplash.com/photo-1657734240326-8f2ab858a2dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
-          alt=""
-          className="relative object-cover object-center h-screen min-w-full max-md:h-96 max-md:object-center"
+          alt="A Pair of Oculus VR Glasses, White in Colour"
+          className="relative object-cover object-center min-w-full md:h-screen max-md:h-96 max-md:object-center "
         />
       </div>
-      <div className="grid w-full place-items-center px-10 bg-[#524f64]">
-        <div className="text-xl text-[#eeeff2]">
-          <h1 className="text-5xl mb-14 underline underline-offset-8 decoration-[#000000]">
+      <div className="grid w-full px-10 place-items-center bg-accent">
+        <div className="py-10 text-xl text-cream">
+          <h1 className="text-5xl underline mb-14 underline-offset-8 decoration-black">
             About Us
           </h1>
           <p className="mb-10">
