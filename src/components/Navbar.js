@@ -26,19 +26,19 @@ const [Open, isOpen] = useState(false)
 
       {/* responsive menu */}
       <button
-        className="hidden max-md:block transition"
+        className="hidden transition max-md:block"
         onClick={() => isOpen(!Open)}
       >
         <div className="transition-all duration-200 ease-in">
           {Open ? (
-            <span className="text-3xl font-extrabold text-secondary block fixed right-12 top-8 z-10">
+            <span className="fixed z-10 block text-3xl font-extrabold text-secondary right-12 top-8">
               ✕
             </span>
           ) : (
             <>
-              <span className="w-8 h-1 bg-secondary block mb-2"></span>
-              <span className="w-8 h-1 bg-secondary block mb-2"></span>
-              <span className="w-8 h-1 bg-secondary block"></span>
+              <span className="block w-8 h-1 mb-2 bg-secondary"></span>
+              <span className="block w-8 h-1 mb-2 bg-secondary"></span>
+              <span className="block w-8 h-1 bg-secondary"></span>
             </>
           )}
         </div>
@@ -55,17 +55,13 @@ const [Open, isOpen] = useState(false)
         <a
           onClick={() => isOpen(false)}
           href="#home"
-          target="_blank"
-          rel="noopener noreferrer"
-          className=" underline underline-offset-8 decoration--accent hover:no-underline max-md:no-underline hover:text-gray-300"
+          className="underline underline-offset-8 decoration--accent hover:no-underline max-md:no-underline hover:text-gray-300"
         >
           Home
         </a>
         <a
           onClick={() => isOpen(false)}
           href="#about"
-          target="_blank"
-          rel="noopener noreferrer"
           className="hover:text-gray-300"
         >
           About
@@ -73,8 +69,6 @@ const [Open, isOpen] = useState(false)
         <a
           onClick={() => isOpen(false)}
           href="#products"
-          target="_blank"
-          rel="noopener noreferrer"
           className="hover:text-gray-300"
         >
           Products
@@ -82,8 +76,6 @@ const [Open, isOpen] = useState(false)
         <a
           onClick={() => isOpen(false)}
           href="#services"
-          target="_blank"
-          rel="noopener noreferrer"
           className="hover:text-gray-300"
         >
           Services
@@ -91,8 +83,6 @@ const [Open, isOpen] = useState(false)
         <a
           onClick={() => isOpen(false)}
           href="#contact"
-          target="_blank"
-          rel="noopener noreferrer"
           className="hover:text-gray-300"
         >
           Contact
