@@ -12,7 +12,7 @@ const About = () => {
       </div>
       <div className="grid w-full px-10 place-items-center bg-accent">
         <div className="py-10 text-xl text-cream">
-          <h1 className="text-5xl underline mb-14 underline-offset-8 decoration-black">
+          <h1 className="text-4xl mb-14 max-md:text-3xl">
             About Us
           </h1>
           <p className="mb-10">
