@@ -13,3 +13,6 @@
   background: #5c4f64;
   color: #eeeff2;
  }
+ ::-webkit-scrollbar {
+  display: none;
+ }
