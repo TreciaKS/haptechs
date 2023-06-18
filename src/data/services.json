@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "title": "Hardware Design",
+      "description": "We specialize in designing state-of-the-art virtual reality hardware that seamlessly integrates with your software.",
+      "icon": "https://img.icons8.com/?size=512&id=qoM7PmAUlBbv&format=png",
+      "alt": "hardware design icon"
+    }, 
+    {
+      "id": 2,
+      "title": "Software Development",
+      "description": "Our expert team of developers creates immersive VR applications tailored to your needs, unlocking new possibilities.",
+      "icon": "https://img.icons8.com/?size=512&id=RSD0vCfVskxB&format=png",
+      "alt": "Software development icon"
+    },
+    {
+      "id": 3,
+      "title": "Consultation",
+      "description": "Get valuable insights and guidance from our VR experts to shape your virtual reality strategy and optimize your projects.",
+      "icon": "https://img.icons8.com/?size=512&id=12iOjBKAI3s6&format=png",
+      "alt": "Consultation icon"
+    }
+]
