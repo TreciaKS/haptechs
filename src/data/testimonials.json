@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "quote": "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+    "alt": "Adam Warlock",
+    "image": "https://dummyimage.com/106x106",
+    "person": "Adam Warlock",
+    "job": "Software Developer"
+  },
+  {
+    "id": 2,
+    "quote": "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+    "alt": "Peter Quill",
+    "image": "https://dummyimage.com/106x106",
+    "person": "Peter Quill",
+    "job": "Developer Advocate"
+  },
+  {
+    "id": 3,
+    "quote": "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+    "alt": "Anthony Stark",
+    "image": "https://dummyimage.com/106x106",
+    "person": "Anthony Stark",
+    "job": "Data Scientist"
+  },
+  {
+    "id": 4,
+    "quote": "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+    "alt": "Steven Strang",
+    "image": "https://dummyimage.com/106x106",
+    "person": "Steven Strange",
+    "job": "ML Specialist"
+  }
+]
