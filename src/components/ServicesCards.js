@@ -1,5 +1,5 @@
 import React from "react";
-import ServicesLayout from "./ServicesLayout";
+import ServicesLayout from "../Layouts/ServicesLayout";
 
 const ServicesCards = ({ services }) => {
   return (

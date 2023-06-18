@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "The HapX1",
+    "description": "Introducing our flagship VR headset - the HapX1. Immerse yourself in stunning virtual worlds with its high-resolution display intuitive controls, and ergonomic design",
+    "image": "https://images.unsplash.com/photo-1657734240334-b13dfc3f6c91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=800&q=60",
+    "alt": "Oculus VR glasses that are white in colour.",
+    "price": 599
+  },
+  {
+    "id": 2,
+    "title": "HapXX Collection",
+    "description": "Experience virtual touch like never before with our HapGlove. Feel textures, sensations, and interactions in virtual environments for a truly immersive experience.",
+    "image": "https://images.unsplash.com/photo-1660100970983-645655a09b3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2078&q=80",
+    "alt": "Oculus joystick and VR glasses placed next to each other. Colour of each is cream white.",
+    "price": 2599
+  }
+]
