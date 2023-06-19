@@ -4,6 +4,8 @@ Haptechs, a virtual reality startup, needs a React-based UI for their website th
 #### Disclaimer: This project was built for an interview assessment. But I adopted it as one of my side projects and will add addtitional features as time progresses.
 
 # Landing Page Screenshot
+<img width="1512" alt="haptech-landingpage" src="https://github.com/TreciaKS/haptechs/assets/82657928/1149fbfb-45f2-4002-924e-15b5a83161fc">
+
 # What this SPA includes:
 - Home Page
 - Products
@@ -15,6 +17,9 @@ Haptechs, a virtual reality startup, needs a React-based UI for their website th
 - React 18
 - Tailwind CSS
 - JSON
+
+## Figma Design URL
+-> 
 
 # Getting Started with Create React App
 
