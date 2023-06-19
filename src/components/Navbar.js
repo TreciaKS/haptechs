@@ -47,6 +47,7 @@ const Navbar = () => {
         onClick={Open ? closeMenu : toggleMenu}
         tabIndex={0}
         aria-expanded={Open}
+        aria-label="Hamburger Menu"
       >
         <div className="transition-all duration-200 ease-in">
           {Open ? (
