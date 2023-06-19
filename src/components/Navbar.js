@@ -1,7 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Navbar = () => {
-const [Open, isOpen] = useState(false)
+  const [Open, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(true);
+
+    // Disables Background Scrolling whilst the menu is open
+    if (typeof window != "undefined" && window.document) {
+      document.body.style.overflow = "hidden";
+    }
+  };
+
+  const closeMenu = () => {
+    setIsOpen(false);
+
+    // Unsets Background Scrolling to use when menu is closed
+    document.body.style.overflow = "unset";
+  };
 
   return (
     <nav
@@ -10,7 +26,7 @@ const [Open, isOpen] = useState(false)
           ? "max-md:flex-col max-md:rounded-none max-md:mt-0 max-md:absolute max-md:bg-black"
           : "relative"
       }`}
-    >
+    id="navbar">
       {/* logo */}
       <div
         className={`w-10 h-10 mr-5 ${
@@ -20,14 +36,16 @@ const [Open, isOpen] = useState(false)
         <img
           src="haptechs-logo.png"
           className="object-contain rounded-full"
-          alt="logo"
+          alt="Haptechs logo"
         />
       </div>
 
       {/* responsive menu */}
       <button
         className="hidden transition max-md:block"
-        onClick={() => isOpen(!Open)}
+        onClick={Open ? closeMenu : toggleMenu}
+        tabIndex={0}
+        aria-expanded={Open}
       >
         <div className="transition-all duration-200 ease-in">
           {Open ? (
@@ -53,38 +71,22 @@ const [Open, isOpen] = useState(false)
         }`}
       >
         <a
-          onClick={() => isOpen(false)}
+          onClick={closeMenu}
           href="#home"
           className="underline underline-offset-8 decoration--accent hover:no-underline max-md:no-underline hover:text-gray-300"
         >
           Home
         </a>
-        <a
-          onClick={() => isOpen(false)}
-          href="#about"
-          className="hover:text-gray-300"
-        >
+        <a onClick={closeMenu} href="#about" className="hover:text-gray-300">
           About
         </a>
-        <a
-          onClick={() => isOpen(false)}
-          href="#products"
-          className="hover:text-gray-300"
-        >
+        <a onClick={closeMenu} href="#products" className="hover:text-gray-300">
           Products
         </a>
-        <a
-          onClick={() => isOpen(false)}
-          href="#services"
-          className="hover:text-gray-300"
-        >
+        <a onClick={closeMenu} href="#services" className="hover:text-gray-300">
           Services
         </a>
-        <a
-          onClick={() => isOpen(false)}
-          href="#contact"
-          className="hover:text-gray-300"
-        >
+        <a onClick={closeMenu} href="#contact" className="hover:text-gray-300">
           Contact
         </a>
       </div>
