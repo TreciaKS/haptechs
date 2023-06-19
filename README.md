@@ -21,6 +21,9 @@ Haptechs, a virtual reality startup, needs a React-based UI for their website th
 ## Figma Design URL
 -> 
 
+## Live Demo
+-> https://haptechs.vercel.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
