@@ -19,7 +19,7 @@ Haptechs, a virtual reality startup, needs a React-based UI for their website th
 - JSON
 
 ## Figma Design URL
--> 
+-> https://www.figma.com/file/GktkfdKofqdUyeXJ5jTL0v/HepTechs?type=design&node-id=0%3A1&t=CufJDbFBByI4mngS-1
 
 ## Live Demo
 -> https://haptechs.vercel.app
