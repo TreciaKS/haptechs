@@ -3,7 +3,7 @@
     "id": 1,
     "quote": "We partnered with Haptechs to develop a custom virtual reality solution for our architectural firm. Their team understood our requirements and delivered a stunning VR experience that showcases our designs like never before. It has been a game-changer for our client presentations",
     "alt": "Adam Warlock",
-    "image": "https://dummyimage.com/106x106",
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhlYWRzaG90JTIwcHJvZmVzc2lvbmFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     "person": "Adam Warlock",
     "job": "Software Developer"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "quote": "Haptechs' commitment to innovation and cutting-edge technology is truly remarkable. Their VR solutions have pushed the boundaries of what is possible, and their support throughout the entire process has been exceptional. We highly recommend Haptechs to anyone looking to explore the world of virtual reality.",
     "alt": "Peter Quill",
-    "image": "https://dummyimage.com/106x106",
+    "image": "https://images.unsplash.com/photo-1652471943570-f3590a4e52ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGhlYWRzaG90JTIwcHJvZmVzc2lvbmFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     "person": "Peter Quill",
     "job": "Developer Advocate"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "quote": "The VR headset developed by Haptechs exceeded all our expectations. The immersive experience it offers is simply mind-blowing. We can't wait to see what they have in store for the future.  It adds a whole new level of realism. Our users are amazed by the level of touch feedback it provides.",
     "alt": "Anthony Stark",
-    "image": "https://dummyimage.com/106x106",
+    "image": "https://images.unsplash.com/photo-1609010697446-11f2155278f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGhlYWRzaG90JTIwcHJvZmVzc2lvbmFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     "person": "Anthony Stark",
     "job": "Data Scientist"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "quote": "Haptechs' haptic glove is a game-changer for virtual reality interactions. It adds a whole new level of realism and immersion to our training simulations. Our users are amazed by the level of touch feedback it provides.ck venmo, post-ironic heirloom try-hard pabst authentic iceland.",
     "alt": "Steven Strang",
-    "image": "https://dummyimage.com/106x106",
+    "image": "https://images.unsplash.com/photo-1625504615927-c14f4f309b63?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTN8fGhlYWRzaG90JTIwcHJvZmVzc2lvbmFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     "person": "Steven Strange",
     "job": "ML Specialist"
   }
