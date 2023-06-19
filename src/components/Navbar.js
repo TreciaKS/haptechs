@@ -21,12 +21,13 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`flex justify-between items-center py-2 px-6 mt-6 bg-black rounded-full max-md:w-full shadow-lg ${
+      className={`flex justify-between items-center py-2 px-6 mt-6 bg-primary rounded-full max-md:w-full shadow-lg ${
         Open
-          ? "max-md:flex-col max-md:rounded-none max-md:mt-0 max-md:absolute max-md:bg-black"
+          ? "max-md:flex-col max-md:rounded-none max-md:mt-0 max-md:absolute max-md:bg-primary"
           : "relative"
       }`}
-    id="navbar">
+      id="navbar"
+    >
       {/* logo */}
       <div
         className={`w-10 h-10 mr-5 ${
@@ -34,8 +35,8 @@ const Navbar = () => {
         }`}
       >
         <img
-          src="haptechs-logo.png"
-          className="object-contain rounded-full"
+          src="haptechs-logo-dark.png"
+          className="object-scale-down object-center rounded-full"
           alt="Haptechs logo"
         />
       </div>
@@ -77,16 +78,16 @@ const Navbar = () => {
         >
           Home
         </a>
-        <a onClick={closeMenu} href="#about" className="hover:text-gray-300">
+        <a onClick={closeMenu} href="#about" className="hover:text-gray-100">
           About
         </a>
-        <a onClick={closeMenu} href="#products" className="hover:text-gray-300">
+        <a onClick={closeMenu} href="#products" className="hover:text-gray-100">
           Products
         </a>
-        <a onClick={closeMenu} href="#services" className="hover:text-gray-300">
+        <a onClick={closeMenu} href="#services" className="hover:text-gray-100">
           Services
         </a>
-        <a onClick={closeMenu} href="#contact" className="hover:text-gray-300">
+        <a onClick={closeMenu} href="#contact" className="hover:text-gray-100">
           Contact
         </a>
       </div>

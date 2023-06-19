@@ -5,6 +5,8 @@ import About from "./sections/About";
 import Product from "./sections/Product";
 import Services from "./sections/Services";
 import Testimonials from "./sections/Testimonials";
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,8 +14,10 @@ function App() {
       <Header />
       <About />
       <Product />
-      <Testimonials />
       <Services />
+      <Testimonials />
+      <CTA />
+      <Footer />
     </div>
   );
 }

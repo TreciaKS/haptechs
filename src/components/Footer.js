@@ -2,25 +2,25 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="bg-black" aria-label="Footer Section">
+    <footer className="bg-primary" aria-label="Footer Section">
       <div className="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
         <a href="#navbar">
           <img
             className="w-auto h-7 hover:opacity-75"
-            src="haptechs-logo.png"
+            src="haptechs-logo-dark.png"
             alt="Haptechs logo"
             loading="lazy"
           />
         </a>
 
-        <p className="text-sm text-secondary ">
+        <p className="text-sm text-center text-secondary">
           © Copyright 2023. All Rights Reserved. Designed And Built by @TreciaKS
         </p>
 
         <div className="flex -mx-2">
           <a
             href="https://twitter.com/TreciaKS"
-            className="mx-2 transition-colors duration-300 text-secondary hover:opacity-75"
+            className="mx-2 transition-colors duration-300 cursor-pointer text-secondary hover:opacity-75"
             aria-label="Facebook"
           >
             <svg
@@ -35,7 +35,7 @@ const Footer = () => {
 
           <a
             href="https://github.com/TreciaKS"
-            className="mx-2 transition-colors duration-300 text-secondary hover:opacity-75"
+            className="mx-2 transition-colors duration-300 cursor-pointer text-secondary hover:opacity-75"
             aria-label="Github"
           >
             <svg
